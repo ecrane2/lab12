@@ -656,6 +656,7 @@ class Word:
             return True
         return False
 
+
     def getHint ( self ):
         for c in self.word:
             if c not in self.letters_picked:
